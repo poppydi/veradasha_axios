@@ -1,0 +1,35 @@
+
+.banner {
+  height: 400px;
+  background-image: url('img/D_NQ_964867-MLA53990832632_022023-OO.webp.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.pagination {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 8px;
+}
+
+.dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+
+.dotActive {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: white;
+  cursor: pointer;
+}
